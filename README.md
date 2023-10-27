@@ -14,4 +14,4 @@ overloading of functions &amp; operators, polymorphism and exception
 handling.
 
 4.Implement data structures of array, stack, queue and Linked list to
-solve engineering problems.ferences.
+solve engineering problems.
