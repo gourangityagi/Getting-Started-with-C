@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int n,w=1,a=1,d=1,s=1;
+
+    cout << "Enter a Number:-";
+    cin >> n;
+    for (int i = 1; i <= 10; ++i) 
+    {
+    cout << n << " * " << i << " = " << n * i << endl;
+    }
+    cout<<endl;
+    cout << "Enter the number:- ";
+    cin >> a;
+    while (w<= 10) 
+    {
+        cout << a<<" * "<< w <<" = " << a* w<<endl;
+        ++w;
+    }
+    cout<<endl;
+    cout << "Enter the number: ";
+    cin >>d;
+    do{
+        cout <<d<<" * "<<s<<" = "<<d*s<<endl;
+        ++s;
+    }while (s<= 10);
+      
