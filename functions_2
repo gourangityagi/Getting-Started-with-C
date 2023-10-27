@@ -1,0 +1,32 @@
+#include <iostream>  
+using namespace std;  
+  
+int sum(int n, int m,int l) {  
+    return n + m + l;  
+}  
+int sum(int n, int m,double l) {  
+    return n + m + l;  
+}  
+int sum(int n, double m,int l) {  
+    return n + m + l;  
+}  
+int sum(double n, int m,int l) {  
+    return n + m + l;  
+}  
+int sum(int n, double m,double l) {  
+    return n + m + l;  
+}  
+int sum(double n, int m,double l) {  
+    return n + m + l;  
+}  
+int sum(double n, double m,int l) {  
+    return n + m + l;  
+}  
+int sum(double n, double m,double l) {  
+    return n + m + l;  
+}  
+int main() {  
+    cout << sum(10,15,18);
+    cout<<endl;
+    return 0;  
+}  
