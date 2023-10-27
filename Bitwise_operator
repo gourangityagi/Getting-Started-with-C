@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int num1;
+num1 = 28;
+if (num1 & 1 == 0) 
+    cout<<num1<<" is even "<<endl;
+else
+    cout<<num1<<" is odd "<<endl;
+
+ return 0;
+    
+}
