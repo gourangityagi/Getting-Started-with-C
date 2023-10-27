@@ -1,5 +1,5 @@
 # Getting-Started-with-C
-This file contians the topics of C++ studied by me in 3rd semester which include:-
+This file contians the topics of C++ studied by me in 3rd semester which includes:-
 
 1.Implementing the basic syntax of C++ programming
 language like variables, operators, control structure, input-output,
