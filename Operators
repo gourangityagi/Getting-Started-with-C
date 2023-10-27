@@ -1,0 +1,82 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int num1,num2,Add,Subtract,Multiply,Divide,Modulous,inc_x,dec_x;
+bool result;
+num1= 8;
+num2 = 6;
+//Arithmetic Operators
+//Addition
+cout<< "Add = " << (num1+num2)<<endl;
+//Subtraction
+cout<< "Subtract = " << (num1-num2)<<endl;
+//Multiplication
+cout<< "Multiply = " << (num1*num2)<<endl;
+//Division
+cout<< "Divide = " << (num1/num2)<<endl;
+//Modulous (Remainder after division)
+cout<< "Modulous = " << (num1%num2)<<endl;
+//Increment and Decrement Operators
+//Increment Operators
+cout<< "inc_x = "<< (++num1)<<endl;
+//Decrement Operators
+cout<< "dec_x = "<< (--num1)<<endl;
+num1 += num2;
+//Assignment Operators
+cout<< "Add = "<<num1<<endl;
+num1 -= num2;
+cout<< "Subtract = "<<num1<<endl;
+num1 *= num2;
+cout<< "Multiply = "<<num1<<endl;
+num1 /= num2;
+cout<< "Divide = "<<num1<<endl;
+num1 %= num2;
+cout<< "Modulous = "<<num1<<endl;
+//Relational Operators
+result = (num1 == num2);   
+cout << "num1 == num2 is " << result << endl;
+result = (num1 != num2);   
+cout << "num1 != num2 is " << result << endl;
+result = (num1 >= num2);   
+cout << "num1 >= num2 is " << result << endl;
+result = (num1 <= num2);   
+cout << "num1 <= num2 is " << result << endl;
+result = (num1 > num2);   
+cout << "num1 > num2 is " << result << endl;
+result = (num1 < num2);   
+cout << "num1 < num2 is " << result << endl;
+//Logical Operators
+result = (num1 != num2) && (num1 < num2);     
+cout << "(num1 != num2) && (num1 < num2) is " << result << endl;
+//
+result = (num1 == num2) && (num1 > num2);     
+cout << "(num1 == num2) && (num1 > num2) is " << result << endl;
+//
+result = (num1 == num2) && (num1 < num2);     
+cout << "(num1 == num2) && (num1 < num2) is " << result << endl;
+//
+result = (num1 != num2) || (num1 < num2);     
+cout << "(num1 != num2) || (num1 < num2) is " << result << endl;
+//
+result = (num1 == num2) || (num1 > num2);     
+cout << "(num1 == num2) || (num1 > num2) is " << result << endl;
+//
+result = (num1 != num2) || (num1 > num2);     
+cout << "(num1 != num2) || (num1 > num2) is " << result << endl;
+//
+result = !(num1 == num2);     
+cout << "!(num1 == num2) is " << result << endl;
+//
+result = !(num1 == num1);     
+cout << "!(num1 == num1) is " << result << endl;
+//Bitwise Operator
+//Bitwise AND
+cout << "num1 & num2 = " << (num1 & num2) << endl;
+//Bitwise OR
+cout << "num1 | num2 = " << (num1 | num2) << endl;
+//Bitwise XOR 
+cout << "num1 ^ num2 = " << (num1 ^ num2) << endl;
+return 0;
+}
