@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int d,b= 0,r,p = 1,c;
+cout<<"Enter a Number:-";
+cin>>d;
+while (d!= 0) 
+{
+    r = d% 2;
+    b = b+(r*p);
+    d = d/2;
+    p*= 10;
+  }
+  cout<<"The number in the binary form is:- "<< b<<endl;
+  cin>>c;
+  return 0;
+}
