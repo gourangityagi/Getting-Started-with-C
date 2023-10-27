@@ -1,0 +1,25 @@
+#include <iostream>  
+using namespace std;  
+  
+int sum(int n, int m) {  
+    return n + m;  
+}  
+double sum(double n, int m) {  
+    return n + m;  
+}  
+double sum(int n, double m) {  
+    return n + m;  
+}  
+double sum(double n, double m) {  
+    return n + m;  
+}  
+int main() {  
+    cout << sum(10,15);
+    cout<<endl;
+    cout << sum(10.15,15);
+    cout<<endl;
+    cout << sum(20,10.15);
+    cout<<endl;
+    cout << sum(20.25,10.15);  
+    return 0;  
+}  
